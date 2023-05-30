@@ -17,7 +17,8 @@ public class JavaConcurrencyDemo {
 
 
     public static void main(String[] args) throws InterruptedException {
-        new Thread(new ReaderWriterSynchronisation()).start();
+        new Thread(new SleepingBarberDemo()).start();
+        //new Thread(new ReaderWriterSynchronisation()).start();
         //new Thread(new DiningPhilosophers()).start();
         //quickSort();
         //new Thread(new MapReduceDemo("a friend in need is a friend indeed")).start();
